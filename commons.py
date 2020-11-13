@@ -4,7 +4,7 @@ import os
 import re
 
 S = symbols("S")
-
+#
 G, G1, G2, G3, G4, G5, G6, G7, G8, G9, G10 = symbols('G_{(s)}  G_{^{1}(s)} G_{^{2}(s)} G_{^{3}(s)} G_{^{4}(s)} G_{^{5}(s)} G_{^{6}(s)} G_{^{7}(s)} G_{^{8}(s)} G_{^{9}(s)} G_{^{10}(s)} ')
 
 Delta, Delta1, Delta2, Delta3, Delta4, Delta5, Delta6, Delta7, Delta8, Delta9, Delta10 = symbols('\Delta \Delta_{1} \Delta_{2} \Delta_{3} \Delta_{4} \Delta_{5} \Delta_{6} \Delta_{7} \Delta_{8} \Delta_{9} \Delta_{10}')
