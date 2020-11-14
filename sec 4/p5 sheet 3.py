@@ -34,6 +34,10 @@ render_eqn(Delta2, delta2_, "delta2_", mul_symbol=".")
 delta3_ = Add(1, Mul(-1, Add(L2, L3, evaluate=False), evaluate=False), evaluate=False)
 render_eqn(Delta3, delta3_, "delta3_", mul_symbol=".", order="none")
 
+delta3_ = Add(1, Mul(-1, Add(L2_, L3_, evaluate=False), evaluate=False), evaluate=False)
+render_eqn(Delta3, delta3_, "delta3_", mul_symbol=".", order="none")
+
+
 delta_ = Add(1, Mul(-1, Add(L1, L2, L3, L4, evaluate=False), evaluate=False), Add(L12, evaluate=False), evaluate=False)
 render_eqn(Delta, delta_, "delta_", mul_symbol=".", order="none")
 
